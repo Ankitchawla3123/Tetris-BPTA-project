@@ -265,7 +265,7 @@ def run_mcts(root_board, sequence, iterations=1000, c=1.4142, seed=None):
 # ------------------ Online-play loop ------------------
 if __name__ == '__main__':
     # EDIT: sequence to play (allowed letters: I,O,T,S,Z,J,L)
-    piece_sequence = ['O', 'T', 'T', 'O', 'I', 'I', 'L', 'T', 'J', 'J', 'L', 'T', 'J', 'J', 'I', 'O', 'L', 'I', 'I', 'L', 'O', 'O', 'L', 'I', 'J', 'J', 'I', 'T', 'J', 'I', 'O', 'L', 'T', 'J', 'I', 'I', 'O', 'O', 'J', 'L', 'I', 'O', 'I', 'I', 'O', 'J', 'O', 'J', 'I', 'L']
+    piece_sequence =['O', 'T', 'T', 'O', 'I', 'I', 'L', 'T', 'J', 'J', 'L', 'T', 'J', 'J', 'I', 'O', 'L', 'I', 'I', 'L', 'O', 'O', 'L', 'I', 'J', 'J', 'I', 'T', 'J', 'I', 'O', 'L', 'T', 'J', 'I', 'I', 'O', 'O', 'J', 'L', 'I', 'O', 'I', 'I', 'O', 'J', 'O', 'J', 'I', 'L']
     # MCTS budget per move
     mcts_iterations_per_move = 2000   # increase for stronger play
     exploration_c = 1.0
