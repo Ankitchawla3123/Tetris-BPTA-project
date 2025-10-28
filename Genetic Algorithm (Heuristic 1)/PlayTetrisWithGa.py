@@ -143,7 +143,7 @@ def pretty_print_board(board):
 if __name__=="__main__":
     best_weights = load_best_weights()
     print(best_weights)
-    piece_sequence =['O', 'O', 'I', 'O', 'O', 'O', 'I', 'I', 'I', 'O', 'O', 'I', 'O', 'I', 'I', 'O', 'I', 'O', 'O', 'I', 'I', 'I', 'O', 'O', 'I', 'I', 'I', 'O', 'O', 'O']
+    piece_sequence =['O', 'T', 'T', 'O', 'I', 'I', 'L', 'T', 'J', 'J', 'L', 'T', 'J', 'J', 'I', 'O', 'L', 'I', 'I', 'L', 'O', 'O', 'L', 'I', 'J', 'J', 'I', 'T', 'J', 'I', 'O', 'L', 'T', 'J', 'I', 'I', 'O', 'O', 'J', 'L', 'I', 'O', 'I', 'I', 'O', 'J', 'O', 'J', 'I', 'L']
     start=time.time()
     print(start)
     final_board, total = play_sequence(best_weights, piece_sequence)

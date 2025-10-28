@@ -9,15 +9,12 @@ Usage:
 import random
 import sys
 
-PIECES = ['I','O','T','J','L','S','Z']
+PIECES = ['I','O','T','J','L']
 
 def generate_sequence(n):
     return [random.choice(PIECES) for _ in range(n)]
 
 if __name__ == "__main__":
-    if len(sys.argv) < 2:
-        print("Usage: python tetris_random_sequence.py <length>")
-        sys.exit(1)
-    n = int(sys.argv[1])
-    seq = generate_sequence(n)
+    n = 20
+    seq = generate_sequence(50)
     print("Random Sequence:", seq)
