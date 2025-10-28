@@ -1,0 +1,7 @@
+Sequence,Time (seconds),Best Score
+"O,O,I,I,I,I,L",0.662989,1
+"O,O,T,O,I,I,L,L",0.724163,2
+"J,O,O,O,I,I,I,O,T",0.893207,2
+"O,I,O,T,I,L",0.531856,1
+"T,T,O,I,T,T,T,I,I,T,I,O,I,I,T,T,I,T,O,T,I,O,O,I,O,O,T,T,O,T",98.958149,10
+"O,O,I,O,O,O,I,I,I,O,O,I,O,I,I,O,I,O,O,I,I,I,O,O,I,I,I,O,O,O,O,I,I,O,O,O,I,O,I,I,O,I,I,O,I,I,O,O,I,O",146.297324,18
